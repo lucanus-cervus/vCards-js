@@ -54,13 +54,13 @@ describe('vCard', function() {
     testCard.pagerPhone = '312-555-1515';
     testCard.homeFax = '312-555-1616';
     testCard.workFax = '312-555-1717';
+    testCard.otherPhone = [{value: '312-555-1717', title: "Téléphone A"}, {value: '312-555-1717', title: "Téléphone B"}, {value: '312-555-1717', title: "Téléphone C"}];
     testCard.birthday = new Date(2018, 11, 1);
     testCard.anniversary = new Date(2018, 11, 1);
     testCard.title = 'Crash Test Dummy';
     testCard.role = 'Crash Testing';
     testCard.email = 'john.doe@testmail';
     testCard.workEmail = 'john.doe@workmail';
-    testCard.url = 'http://johndoe';
     testCard.workUrl = 'http://acemecompany/johndoe';
 
     testCard.homeAddress.label = 'Home Address';
