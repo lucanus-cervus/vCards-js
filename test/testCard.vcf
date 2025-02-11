@@ -24,6 +24,12 @@ LABEL;CHARSET=UTF-8;TYPE=HOME:Home Address
 ADR;CHARSET=UTF-8;TYPE=HOME:;;123 Main Street;Chicago;IL;12345;United States of America
 LABEL;CHARSET=UTF-8;TYPE=WORK:Work Address
 ADR;CHARSET=UTF-8;TYPE=WORK:;;123 Corporate Loop\nSuite 500;Los Angeles;CA;12345;California Republic
+LABEL;CHARSET=UTF-8;TYPE=A:Work Address
+ADR;CHARSET=UTF-8;TYPE=A:;;123 Corporate Loop\nSuite 500;Los Angeles;CA;54321;California Republic
+LABEL;CHARSET=UTF-8;TYPE=B:Work Address
+ADR;CHARSET=UTF-8;TYPE=B:;;123 Corporate Loop\nSuite 500;Los Angeles;CAAAA;54321;California Republic
+LABEL;CHARSET=UTF-8;TYPE=C:Work Address
+ADR;CHARSET=UTF-8;TYPE=C:;;123 Corporate Loop\nSuite 500;Los Angeles;CAAAAAAA;54321;California Republic
 TITLE;CHARSET=UTF-8:Crash Test Dummy
 ROLE;CHARSET=UTF-8:Crash Testing
 ORG;CHARSET=UTF-8:ACME Corporation
@@ -35,5 +41,5 @@ X-SOCIALPROFILE:TYPE=twitter:https://twitter/johndoe
 X-SOCIALPROFILE:TYPE=flickr:https://flickr/johndoe
 X-SOCIALPROFILE:TYPE=custom:https://custom/johndoe
 SOURCE;CHARSET=UTF-8:http://sourceurl
-REV:2025-02-11T15:35:35.686Z
+REV:2025-02-11T15:56:31.011Z
 END:VCARD

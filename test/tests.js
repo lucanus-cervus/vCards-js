@@ -77,6 +77,49 @@ describe('vCard', function() {
     testCard.workAddress.postalCode = '54321';
     testCard.workAddress.countryRegion = 'California Republic';
 
+    testCard.workAddress.label = 'Work Address';
+    testCard.workAddress.street = '123 Corporate Loop\nSuite 500';
+    testCard.workAddress.city = 'Los Angeles';
+    testCard.workAddress.stateProvince = 'CA';
+    testCard.workAddress.postalCode = '54321';
+    testCard.workAddress.countryRegion = 'California Republic';
+
+    testCard.otherAddress = [
+        {
+            details: {
+                label: 'Work Address',
+                street: '123 Corporate Loop\nSuite 500',
+                city: 'Los Angeles',
+                stateProvince: 'CA',
+                postalCode: '54321',
+                countryRegion: 'California Republic'
+            },
+            type: 'A'
+        },
+        {
+            details: {
+                label: 'Work Address',
+                street: '123 Corporate Loop\nSuite 500',
+                city: 'Los Angeles',
+                stateProvince: 'CAAAA',
+                postalCode: '54321',
+                countryRegion: 'California Republic'
+            },
+            type: 'B'
+        },
+        {
+            details: {
+                label: 'Work Address',
+                street: '123 Corporate Loop\nSuite 500',
+                city: 'Los Angeles',
+                stateProvince: 'CAAAAAAA',
+                postalCode: '54321',
+                countryRegion: 'California Republic'
+            },
+            type: 'C'
+        }
+    ];
+
     testCard.source = 'http://sourceurl';
     testCard.note = 'John Doe\'s \nnotes;,';
 
